@@ -10,9 +10,15 @@ html{
 }
     
 #sec{
+<<<<<<< HEAD
     background-image: url("/images/scene.png");
     background-attachment: fixed;
     width: 100%;
+=======
+    background-image: url("/images/frontpage.png");
+    background-attachment: fixed;
+    width: 100vw;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     height: 105vh;
     background-size:cover;
     background-position:right center;
@@ -33,12 +39,15 @@ nav{
     z-index: 111;
 }
     
+<<<<<<< HEAD
 .logo{
     margin: 15px;
     width: 280px;
     height: 60px;
 }
     
+=======
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 .navItem li{
     list-style: none;
     margin: 8px 0px;
@@ -66,10 +75,13 @@ nav{
     color: #4f35e0;
 }
     
+<<<<<<< HEAD
 .navbar .logo{
     padding-top: 6px;
 }
     
+=======
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 .navbar ul li a.active {
     border-radius: 0px;
     padding: 19px 15px;
@@ -78,6 +90,7 @@ nav{
     
 #myhome{
     display: flex;
+<<<<<<< HEAD
     margin-top: 50px;
     height: calc(100vh - 350px);
     justify-content: flex-start;
@@ -106,6 +119,36 @@ h1{
     font-size: 1.5em;
     font-weight: 300;
     color: #000000;
+=======
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 60vh;
+    padding-top: 10vh;
+}
+    
+.cols{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+    
+.topline{
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+    
+h1{
+    margin-top: 90px;
+    padding-left: 0;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffffff;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 }
     
 p{
@@ -156,8 +199,14 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
+<<<<<<< HEAD
     padding-left: 38%;
     font-size: 2.8em;
+=======
+    padding-left: 0;
+    font-size: 2.8em;
+    text-align: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-weight: 200;
     color: #000000;
 }
@@ -178,8 +227,13 @@ button:hover{
     
 .abt-content{
     width: 80%;
+<<<<<<< HEAD
     text-align:center;
     padding-left: 20%;
+=======
+    margin: 0 auto;
+    text-align: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-size: 1.5em;
     font-weight: 300;
 }
@@ -206,9 +260,14 @@ button:hover{
 }
     
 .self{
+<<<<<<< HEAD
     margin-top: 5%;
     margin-left: 25%;
     padding-left: 5%;
+=======
+    margin: 40px auto;
+    padding: 20px;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     width: 50%;
     height: 280px;
     align-items: center;
@@ -230,10 +289,18 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
+<<<<<<< HEAD
     padding-left: 43%;
     font-size: 2.8em;
     font-weight: 200;
     color: #000000;
+=======
+    padding-left: 0;
+    font-size: 2.8em;
+    font-weight: 200;
+    color: #000000;
+    text-align: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 }
     
 .block{
@@ -298,7 +365,12 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
+<<<<<<< HEAD
     padding-left: 43%;
+=======
+    padding-left: 0;
+    text-align: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-size: 2.8em;
     font-weight: 200;
     color: #000000;
@@ -315,13 +387,21 @@ button:hover{
 .head1{
     margin-bottom: 5%;
     margin-top: 4%;
+<<<<<<< HEAD
     margin-left: 8%;
+=======
+    margin-left: 15%;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-size: 1.5em;
     font-weight: 350;
 }
     
 .tech-icons {
+<<<<<<< HEAD
     margin-left: 7%;
+=======
+    margin: 0 11%;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -343,13 +423,22 @@ button:hover{
     
 .head2{
     margin-left: 70%;
+<<<<<<< HEAD
     margin-top: -30%;
+=======
+    margin-top: -27.5%;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-size: 1.5em;
     font-weight: 350;
 }
     
 .work-icons {
+<<<<<<< HEAD
     margin-left: 70%;
+=======
+    margin: 0 71%;
+    justify-content: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -512,7 +601,12 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
+<<<<<<< HEAD
     padding-left: 42%;
+=======
+    padding-left: 0;
+    text-align: center;
+>>>>>>> 4ce5344 (updating to responsive portfolio)
     font-size: 2.8em;
     font-weight: 200;
     color: #000000;
@@ -799,14 +893,22 @@ footer p {
 
 .navbar.large {
     height: 90px;
+<<<<<<< HEAD
     background-color: #000000; /* Semi-transparent background */
+=======
+    background-color: #01b994; /* Semi-transparent background */
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 }
 
 .navbar.small {
     margin: -20px 0px;
     height: 80px;
     font-size: 1em; /* Smaller font size */
+<<<<<<< HEAD
     background-color: #000000; /* Solid background color */   
+=======
+    background-color: #01b994; /* Solid background color */   
+>>>>>>> 4ce5344 (updating to responsive portfolio)
 }
 
 nav a.active {
@@ -816,4 +918,241 @@ nav a.active {
 
 nav a.active:hover{
     color: rgb(255, 255, 255);
+<<<<<<< HEAD
 }
+=======
+}
+
+
+/* ---------- Responsive Design Fixes ---------- */
+
+@media (max-width: 1024px) {
+  .logo{
+    margin: 15px;
+    width: 280px;
+    height: 60px;
+  }
+  .navItem li {
+    padding-left: 0;
+    margin: 8px 0px;
+  }
+  .abt,
+  .passion,
+  .exp,
+  .work {
+    padding-left: 0;
+    text-align: center;
+  }
+  .abt-content,
+  .enjoy,
+  #myexp p {
+    padding-left: 10%;
+    text-align: center;
+  }
+  .about-img img {
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+  .work-icons,
+  .tech-icons {
+    justify-content: center;
+    margin-left: 0;
+  }
+  .head2,
+  .head1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+  .navItem li a {
+    display: block;
+    margin: 5px 0;
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  #myhome {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+  }
+  .topline {
+    font-size: 36px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 24px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .abt-content,
+  .enjoy,
+  .p1,
+  .contact-container p {
+    font-size: 1rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .about-img img {
+    width: 50%;
+  }
+  .self {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .portfolio-item a {
+    top: 50%;
+    left: 40%;
+    font-size: 30px;
+  }
+  .overlay {
+    top: 75%;
+    font-size: 0.9rem;
+  }
+  .res1 h1 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  footer {
+    padding: 40px 20px;
+  }
+  .example-2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .topline {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .abt-content,
+  .enjoy,
+  .p1,
+  .contact-container p {
+    font-size: 0.9rem;
+  }
+  .about-img img {
+    width: 60%;
+  }
+  .icon1 {
+    width: 150px;
+    height: 150px;
+  }
+  .icon1 img {
+    width: 50%;
+    height: 50%;
+  }
+  .contact-container .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .navItem ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navItem li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navItem li a {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #144bc1;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .navItem li a:hover {
+    color: #4f35e0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+}
+    .abt,
+    .passion,
+    .exp,
+    .work {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .abt-content,
+    .enjoy,
+    #myexp p {
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #myhome {
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .self {
+        margin: 40px auto;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .about-img img {
+        margin: 0 auto 30px auto;
+        display: block;
+    }
+
+    .tech-icons,
+    .work-icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .head1,
+    .head2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+>>>>>>> 4ce5344 (updating to responsive portfolio)
