@@ -3,6 +3,7 @@ html{
 }
     
 *{
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -384,6 +385,10 @@ button:hover{
     margin-top: -34%;
 }
 
+.workplaces .work-icons{
+    margin-top: -2%;
+}
+
 .head2{
     margin-left: 70%;
     margin-top: -30%;
@@ -404,8 +409,8 @@ button:hover{
     
 .work-icons img {
     margin-left: 67%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -417,7 +422,7 @@ button:hover{
 /*----------------------------------------------resume-------------------------------------------*/
     
 .resume {
-    margin-top: 12%;
+    margin-top: 10%;
     position: relative;
     width: 100%;
     height: 40vh;
@@ -451,8 +456,8 @@ button:hover{
 .res1 h1 {
     color: white;
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    margin-left: -20%;
+    margin-bottom: 50px;
+    margin-left: -3%;
     letter-spacing: 2px;
 }
     
