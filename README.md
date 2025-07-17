@@ -2,11 +2,11 @@
   Personal Website (PORTFOLIO)
 </h1>
 <p align="center">
-  The first iteration of <a href="https://bhawnamanral-portfolio.netlify.app/" target="_blank">Bhawna Manral</a> hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first iteration of <a href="https://bhmanral-porfolio.netlify.app/" target="_blank">Bhawna Manral</a> hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 
-![demo](https://github.com/bhmanral/bhawna-portfolio/blob/main/images/frontpage.png)
+![demo](https://github.com/bhmanral/bhawna-portfolio/blob/main/images/demo.png)
 
 <h3 align="center">
   NOTE
