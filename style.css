@@ -13,10 +13,7 @@ html{
 #sec{
     background-image: url("/images/scene.png");
     background-attachment: fixed;
-    width: 100%;
-    background-image: url("/images/frontpage.png");
-    background-attachment: fixed;
-    width: 100vw;
+ width: 100vw;
     height: 105vh;
     background-size:cover;
     background-position:right center;
@@ -36,11 +33,7 @@ nav{
     line-height: 80px;
     z-index: 111;
 }
-.logo{
-    margin: 15px;
-    width: 280px;
-    height: 60px;
-}
+    
 .navItem li{
     list-style: none;
     margin: 8px 0px;
@@ -58,18 +51,10 @@ nav{
     text-transform: capitalize;
 }
     
-.links a{
-    font-size: 30px;
-    color: #fb18af;
-    margin: 25px 10px;
-}
-    
-.navItem li a:hover,.links a:hover{
+.navItem li a:hover{
     color: #4f35e0;
 }
-.navbar .logo{
-    padding-top: 6px;
-}
+    
 .navbar ul li a.active {
     border-radius: 0px;
     padding: 19px 15px;
@@ -78,35 +63,7 @@ nav{
     
 #myhome{
     display: flex;
-    margin-top: 50px;
-    height: calc(100vh - 350px);
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 27%;
-    overflow: hidden;
-}
-    
-.cols{
-    width: 80%;
-    z-index: 1;
-    position: relative;
-    top:15px;
-}
-    
-.topline{
-    position: relative;
-    font-size: 100px;
-    letter-spacing: 5px;
-    color: #000000;
-}
-    
-h1{
-    padding-left: 170px;
-    display: block;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #000000;
-    justify-content: center;
+justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -177,16 +134,15 @@ button:hover{
 /*-----------------------------------------about---------------------------------------------*/
     
 #myabout{
-    margin-top: 2%;  
+    margin-top: 2%;
+    
 }
     
 .abt{
     align-items: center;
     padding-top: 1%;
     padding-bottom: 20px;
-    padding-left: 38%;
-    font-size: 2.8em;
-    padding-left: 0;
+padding-left: 0;
     font-size: 2.8em;
     text-align: center;
     font-weight: 200;
@@ -209,9 +165,7 @@ button:hover{
     
 .abt-content{
     width: 80%;
-    text-align:center;
-    padding-left: 20%;
-    margin: 0 auto;
+margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
     font-weight: 300;
@@ -240,10 +194,7 @@ button:hover{
 }
     
 .self{
-    margin-top: 5%;
-    margin-left: 25%;
-    padding-left: 5%;
-    margin: 40px auto;
+margin: 40px auto;
     padding: 20px;
     width: 50%;
     height: 280px;
@@ -266,11 +217,7 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
-    padding-left: 43%;
-    font-size: 2.8em;
-    font-weight: 200;
-    color: #000000;
-    padding-left: 0;
+padding-left: 0;
     font-size: 2.8em;
     font-weight: 200;
     color: #000000;
@@ -331,8 +278,7 @@ button:hover{
     align-items: center;
     padding-top: 7%;
     padding-bottom: 20px;
-    padding-left: 43%;
-    padding-left: 0;
+ padding-left: 0;
     text-align: center;
     font-size: 2.8em;
     font-weight: 200;
@@ -350,17 +296,13 @@ button:hover{
 .head1{
     width: 80vh;
     margin-bottom: 5%;
-    margin-top: 4%;
-    margin-left: 8%;
-    margin-left: 15%;
+margin-top: 4%;
     font-size: 1.5em;
     font-weight: 350;
 }
     
 .tech-icons {
-    margin-left: 7%;
-    margin: 0 11%;
-    padding-left: 1.5%;
+padding-left: 1.5%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -389,18 +331,13 @@ button:hover{
 }
 
 .head2{
-    margin-left: 70%;
-    margin-top: -30%;
-    margin-top: -27.5%;
-    width: 280vh;
+width: 280vh;
     font-size: 1.5em;
     font-weight: 350;
 }
     
 .work-icons {
-    margin-left: 70%;
-    margin: 0 71%;
-    justify-content: center;
+justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -563,8 +500,7 @@ button:hover{
     margin-top: 3%;
     align-items: center;
     padding-top: 7%;
-    padding-bottom: 20px;
-    padding-left: 42%;
+    padding-bottom: 20px; 
     padding-left: 0;
     text-align: center;
     font-size: 2.8em;
@@ -711,7 +647,7 @@ footer {
     background-color: #514f4f;
     color: #fff;
     text-align: center;
-    padding: 100px 90px;
+    padding: 10px 50px;
 }
     
 footer .social-icons {
@@ -719,8 +655,7 @@ footer .social-icons {
 }
     
 footer .social-icons a {
-    margin: 0 60px;
-    font-size: 60px;
+    font-size: 10px;
     color: #fff;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -731,7 +666,7 @@ footer .social-icons a:hover {
 }
     
 footer p {
-    padding-top: 3%;
+    padding-top: 1%;
     font-size: 18px;
     color: #d6cfcf;
     padding-left: 9.5%;
@@ -853,16 +788,14 @@ footer p {
 
 .navbar.large {
     height: 90px;
-    background-color: #000000; 
-    background-color: #01b994;
+    background-color: #01b994; /* Semi-transparent background */
 }
 
 .navbar.small {
     margin: -8px 0px;
     height: 64px;
-    font-size: 1em; 
-    background-color: #000000; 
-    background-color: #01b994;
+    font-size: 1em; /* Smaller font size */
+    background-color: #01b994; /* Solid background color */   
 }
 
 nav a.active {
@@ -877,219 +810,10 @@ nav a.active:hover{
 
 /* ---------- Responsive Design Fixes ---------- */
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .navItem li {
-    padding-left: 0;
-    margin: 5px 0px;
-  }
-  .abt,
-  .passion,
-  .exp,
-  .work,
-  #mycontact h1 {
-    font-size: 2em;
-    padding-left: 0;
-    text-align: center;
-  }
-  .abt-content,
-  .enjoy,
-  #myexp p {
-    padding-left: 10%;
-    text-align: center;
-  }
-  #myexp{
-    margin-bottom: 30%;
-  }
-  .about-img img {
-    margin: 0 auto 30px auto;
-    display: block;
-  }
-  .work-icons,
-  .tech-icons {
-    justify-content: center;
-    margin-left: 0;
-  }
-  .head2,
-  .head1 {
-    font-size: 1rem;
-    text-align: center;
-  }
-  .navbar.large {
-    height: 70px;
-    background-color: #01b994; /* Semi-transparent background */
-}
-
-.navbar.small {
-    height: 60px;
-    font-size: 1em; /* Smaller font size */
-    background-color: #01b994; /* Solid background color */   
-}
-.navbar ul li a.active {
-    border-radius: 0px;
-    padding: 10px 5px;
-    padding-top: 25px;
-    padding-bottom: 2px;
-}
-.item1 {
-    max-width: 300px;
-    text-align: center;
-}
-.workplaces{
-    margin-top: -54%;
-    margin-left: 5%;
-}
-.workplaces .work-icons{
-    margin-top: -2%;
-    margin-right: 1%;
-}
-.resume {
-  position: relative;
-  width: 100%;
-  height: 70vh;
-  padding: 10px 20px;
-  background: url('./images/photo_2024-06-16 12.20.22.jpeg') no-repeat center center / cover;
-  background-attachment: scroll; /* Important: remove fixed for smaller devices */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.resume::before {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-}
-
-.res1 h1 {
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-}
-
-.resbutton {
-  font-size: 1rem;
-}
-
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
-    gap: 10px;
-    padding: 20px;
-    transition: all 400ms;
-}
-.contact-container .icon img {
-    width: 50px;
-}
-}
-
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding: 10px 0;
-  }
-  .navItem li a {
-    display: block;
-    margin: 5px 0;
-  }
-  #myhome {
-    flex-direction: column;
-    margin-left: 0;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 20px;
-  }
-  .topline {
-    font-size: 36px;
-    text-align: center;
-  }
-  h1 {
-    font-size: 24px;
-    padding-left: 0;
-    text-align: center;
-  }
-  .abt-content,
-  .enjoy,
-  .p1,
-  .contact-container p {
-    font-size: 1rem;
-    padding-left: 0;
-    text-align: center;
-  }
-  .about-img img {
-    width: 50%;
-  }
-  .self {
-    width: 90%;
-    margin: 20px auto;
-  }
-  .container1 {
-    flex-direction: column;
-    align-items: center;
-  }
-  .block {
-    height: auto;
-    padding-bottom: 40px;
-  }
-  .portfolio-grid {
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
-  .portfolio-item a {
-    top: 50%;
-    left: 40%;
-    font-size: 30px;
-  }
-  .overlay {
-    top: 75%;
-    font-size: 0.9rem;
-  }
-  .res1 h1 {
-    font-size: 1.5rem;
-    margin-left: 0;
-  }
-  footer {
-    padding: 40px 20px;
-  }
-  .example-2 {
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 480px) {
-  .topline {
-    font-size: 28px;
-  }
-  h1 {
-    font-size: 18px;
-  }
-  .abt-content,
-  .enjoy,
-  .p1,
-  .contact-container p {
-    font-size: 0.9rem;
-  }
-  .about-img img {
-    width: 60%;
-  }
-  .icon1 {
-    width: 150px;
-    height: 150px;
-  }
-  .icon1 img {
-    width: 50%;
-    height: 50%;
-  }
-  .contact-container .btn {
-    font-size: 16px;
-    padding: 8px 16px;
-  }
-}
-
 @media (min-width: 1024px) and (max-width: 1440px) {
+     .sidebar{
+        display: none;
+    }
     .navItem ul {
     display: flex;
     justify-content: flex-end;
@@ -1124,7 +848,6 @@ nav a.active:hover{
     align-items: center;
     padding: 0 50px;
   }
-}
     .abt,
     .passion,
     .exp,
@@ -1157,7 +880,10 @@ nav a.active:hover{
         margin: 0 auto 30px auto;
         display: block;
     }
-
+    .item1 {
+    max-width: 300px;
+    text-align: center;
+}
     .tech-icons,
     .work-icons {
         margin-left: 0;
@@ -1169,3 +895,487 @@ nav a.active:hover{
         text-align: center;
         margin: 20px 0;
     }
+} 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sidebar{
+        display: none;
+    }
+    #sec{
+        background-position-x: 60%;
+  }
+   #myhome {
+    height: 55vh;
+}
+    .topline{
+        padding-right: 10%;
+        font-size:60px;
+    }
+    .cols h1{
+        padding-right: 15%;
+        margin-top: 35px;
+        font-size: 20px;
+    }
+  .navItem li {
+    padding-left: 0;
+    margin: 5px 0px;
+  }
+  .abt,
+  .passion,
+  .exp,
+  .work,
+  #mycontact h1 {
+    font-size: 2em;
+    padding-left: 0;
+    text-align: center;
+  }
+  .abt-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+.enjoy{
+    padding-right: 5%;
+    font-size: 0.95em;
+}
+.self{
+    width: 100%;
+}
+    #myexp{
+    margin-bottom: 30%;
+  }
+  .about-img img {
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+  .work-icons,
+  .tech-icons {
+    padding-left: 5%;
+    justify-content: center;
+  }
+  .tech-icons img{
+    width: 70px;
+    height: 70px;
+  }
+  .head1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 20px -50px;
+  }
+  .head2{
+    font-size: 1em;
+    margin: 1% 0px 20px 500px;
+  }
+  .navbar.large {
+    height: 70px;
+    background-color: #01b994; /* Semi-transparent background */
+}
+.navbar.small {
+    height: 60px;
+    font-size: 1em; /* Smaller font size */
+    background-color: #01b994; /* Solid background color */   
+}
+.navbar ul li a.active {
+    border-radius: 0px;
+    padding: 10px 5px;
+    padding-top: 25px;
+    padding-bottom: 2px;
+}
+.block{
+    height: 600px;
+}
+.icon1{
+    width: 120px;
+    height: 120px;
+}
+.item1 {
+    font-size: 12px;
+    max-width: 230px;
+    text-align: center;
+}
+#myexp p{
+    padding-left: 20%;
+    width: 80%;
+    font-size: 1em;
+}
+.workplaces{
+    margin-top: -54%;
+    margin-left: 3%;
+}
+.workplaces .work-icons{
+    margin-top: -2%;
+    margin-right: 2%;
+}
+.resume {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+#mywork p{
+    padding-left: 40%;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    gap: 10px;
+    padding: 20px;
+    transition: all 400ms;
+}
+.contact-container .icon img {
+    width: 40px;
+   margin-top: -23%;
+}
+#mycontact h1{
+    margin-top: -1%;
+}
+footer {
+    background-color: #514f4f;
+    color: #fff;
+    text-align: center;
+    padding: 15px 70px;
+}
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  .navbar{
+    display: none;
+  }
+  #sec{
+    background-position-x: 60%;
+  }
+  #myhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topline {
+  font-size: 60px;
+}
+
+.cols h1 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+  .menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  z-index: 9999;
+  color: #144bc1;
+  cursor: pointer;
+  background: rgb(217, 162, 162);
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 260px;
+  height: 80%;
+  background-color: #008080;
+  padding-top: 60px;
+  transition: right 0.3s ease;
+  z-index: 9998;
+  overflow-y: auto;
+}
+.sidebar.active {
+  right: 0;
+}
+.sidebar-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #006666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: bold;
+}
+#close-sidebar {
+  font-size: 28px;
+  cursor: pointer;
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.sidebar-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0 20px;
+}
+
+.sidebar-menu li a {
+    width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 12px 0;
+  border-bottom: 1px solid #005555;
+}
+
+.sidebar-menu li a:hover {
+  background: #006666;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+  .abt-content,
+  .enjoy,
+  .p1,
+  .contact-container p {
+    font-size: 1rem;
+    padding-left: 0;
+    text-align: center;
+  }
+    .abt-content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+  .about-img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .self {
+    display: none;
+  }
+
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .portfolio-item a {
+    top: 50%;
+    left: 40%;
+    font-size: 30px;
+  }
+  #myexp p{
+    padding-left: 10%;
+    width: 90%;
+    font-size: 1em;
+}
+ #myexp{
+    margin-bottom: 30%;
+  }
+  .overlay {
+    top: 75%;
+    font-size: 0.9rem;
+  }
+  .work-icons,
+  .tech-icons {
+    padding-left: 5%;
+    justify-content: center;
+  }
+  .tech-icons img{
+    width: 70px;
+    height: 70px;
+  }
+  .head1 {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px -90px;
+  }
+  .head2{
+    font-size: 15px;
+    margin: -512px 0px 20px 400px;
+  }
+  .workplaces .work-icons{
+    margin-top: -2%;
+    margin-right: 15%;
+}
+ .resume {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    gap: 10px;
+    padding: 20px;
+    transition: all 400ms;
+}
+.contact-container .icon img {
+    width: 40px;
+   margin-top: -23%;
+}
+#mycontact h1{
+    margin-top: -1%;
+}
+  footer {
+    background-color: #514f4f;
+    color: #fff;
+    text-align: center;
+    padding: 15px 70px;
+}
+  .example-2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+    display: none;
+  }
+  #sec{
+    background-position-x: 60%;
+  }
+  #myhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topline {
+  font-size: 60px;
+}
+
+.cols h1 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+  .menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  z-index: 9999;
+  color: #144bc1;
+  cursor: pointer;
+  background: rgb(217, 162, 162);
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 260px;
+  height: 80%;
+  background-color: #008080;
+  padding-top: 60px;
+  transition: right 0.3s ease;
+  z-index: 9998;
+  overflow-y: auto;
+}
+.sidebar.active {
+  right: 0;
+}
+.sidebar-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #006666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: bold;
+}
+#close-sidebar {
+  font-size: 28px;
+  cursor: pointer;
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.sidebar-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0 20px;
+}
+
+.sidebar-menu li a {
+    width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 12px 0;
+  border-bottom: 1px solid #005555;
+}
+
+.sidebar-menu li a:hover {
+  background: #006666;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+  .topline {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .abt-content,
+  .enjoy,
+  .p1,
+  .contact-container p {
+    font-size: 0.9rem;
+  }
+  .about-img img {
+    width: 60%;
+  }
+  .icon1 {
+    width: 150px;
+    height: 150px;
+  }
+  .icon1 img {
+    width: 50%;
+    height: 50%;
+  }
+  .contact-container .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
